@@ -1,3 +1,11 @@
+<img width="707" height="518" alt="Screenshot 2026-08-22 123505" src="https://github.com/user-attachments/assets/50544836-8461-4401-a10b-0142552fa550" />
+<img width="1819" height="926" alt="Screenshot 2026-08-22 142307" src="https://github.com/user-attachments/assets/7c25f158-fe18-4df0-84b6-349414419036" />
+<img width="1780" height="917" alt="Screenshot 2026-08-22 142243" src="https://github.com/user-attachments/assets/7b1bae79-b4a5-42b9-bb00-f648a8737d45" />
+<img width="1782" height="925" alt="Screenshot 2026-08-22 142225" src="https://github.com/user-attachments/assets/ba4ab498-cd0d-4b6e-be99-699708082eae" />
+<img width="1780" height="928" alt="Screenshot 2026-08-22 142324" src="https://github.com/user-attachments/assets/1500e7c5-498a-4af4-84b1-12656af53afa" />
+<img width="1838" height="895" alt="Screenshot 2026-08-22 142203" src="https://github.com/user-attachments/assets/a685bb76-b6eb-4f58-9ca3-f217009d6838" />
+<img width="916" height="736" alt="Screenshot 2026-08-22 140721" src="https://github.com/user-attachments/assets/6c2021dc-c629-4fe4-b8d0-565ac727dd91" />
+<img width="1919" height="1023" alt="Screenshot 2026-08-22 140422" src="https://github.com/user-attachments/assets/31d122dd-77c3-43aa-9432-5c9fbd8d2ca8" />
 # Embeddable Widget & Lead-Capture Platform
 ![Working Widget Demonstration](./widget-demo.png)
 
