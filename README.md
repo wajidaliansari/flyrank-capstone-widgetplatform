@@ -1,4 +1,6 @@
 # Embeddable Widget & Lead-Capture Platform
+![Working Widget Demonstration](./widget-demo.png)
+
 
 A backend platform allowing customers to create embeddable widgets, capture leads via cross-origin requests, and view analytics. Built by Wajid Ali Ansari.
 
