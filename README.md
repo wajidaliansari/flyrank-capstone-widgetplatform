@@ -1,3 +1,40 @@
+# FlyRank Capstone — Embeddable Widget & Lead-Capture Platform
+
+FastAPI backend for embeddable widgets and lead capture.
+
+## Stack
+Python, FastAPI, SQLAlchemy, PostgreSQL, Docker, Pydantic, JWT, SlowAPI, httpx, pytest, plain HTML.
+
+## Quick start
+
+1. Copy `.env.example` to `.env`.
+2. Start PostgreSQL: `docker compose up -d db`
+3. Create a virtual environment and install: `pip install -r requirements.txt`
+4. Start API: `uvicorn app.main:app --reload --port 8000`
+5. Open `http://localhost:8000/docs`.
+6. In another terminal: `cd customer-site` then `python -m http.server 5500`.
+7. Create a widget through the API, then put its generated script into `customer-site/index.html`.
+
+## Docker
+
+`docker compose up --build`
+
+## Tests
+
+`pytest -q`
+
+## Architecture
+
+Owner -> authenticated Widget API -> PostgreSQL
+Customer site -> cached public config -> widget.js -> public submission API
+Submission -> validation -> CORS -> rate limit -> honeypot -> geo A -> geo B -> store -> non-critical side effect
+Owner -> dashboard API -> submissions/statistics
+
+## Security
+Passwords are hashed; JWT protects owner routes; tenant ownership is checked in queries; public input is validated; CORS, payload limits, rate limiting and honeypot protection are enabled; geo and side-effect failures degrade safely; secrets live in `.env`.
+
+## Limitation
+This is a local capstone implementation. No real CDN, hosting, production email service, or visual form builder is required.
 
 <img width="1819" height="926" alt="Screenshot 2026-08-22 142307" src="https://github.com/user-attachments/assets/7c25f158-fe18-4df0-84b6-349414419036" />
 <img width="1780" height="917" alt="Screenshot 2026-08-22 142243" src="https://github.com/user-attachments/assets/7b1bae79-b4a5-42b9-bb00-f648a8737d45" />
